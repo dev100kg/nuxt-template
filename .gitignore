@@ -18,6 +18,17 @@ logs
 .fleet
 .idea
 
+# Editor
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+
 # Local env files
 .env
 .env.*

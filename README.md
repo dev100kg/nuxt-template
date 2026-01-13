@@ -31,6 +31,12 @@ pnpm dev
 
 # ビルド
 pnpm build
+
+# 型チェック
+pnpm type-check
+
+# セキュリティ監査
+pnpm audit
 ```
 
 ## Git Hooks
