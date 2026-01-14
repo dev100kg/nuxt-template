@@ -79,4 +79,5 @@ cd my-new-project
 rm -rf .git
 git init
 pnpm install
+chmod +x .husky/pre-commit
 ```
