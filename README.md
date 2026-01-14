@@ -5,7 +5,7 @@
 ## 推奨環境
 
 - **Node.js 22.x** (LTS)
-- **pnpm 9.x**
+- **pnpm 10.x**
 
 ## 技術スタック
 
@@ -37,11 +37,20 @@ pnpm dev
 # ビルド
 pnpm build
 
-# 型チェック
-pnpm type-check
+# 静的サイト生成
+pnpm generate
 
-# セキュリティ監査
-pnpm audit
+# プレビュー
+pnpm preview
+
+# Lintチェック
+pnpm lint
+
+# Lint自動修正
+pnpm lint:fix
+
+# コードフォーマット
+pnpm format
 ```
 
 ## Git Hooks
